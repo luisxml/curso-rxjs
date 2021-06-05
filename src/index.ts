@@ -21,3 +21,5 @@ const subs = intervalo$.subscribe(num => console.log('Num:', num));
 setTimeout(()=> {
     subs.unsubscribe()
 },3000);
+
+// git
